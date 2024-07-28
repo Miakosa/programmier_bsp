@@ -15,15 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Programm.cpp">
-      <Filter>Ressourcendateien</Filter>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Window.cpp">
+    <ClCompile Include="Programm.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Fruit.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Fruit.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
@@ -42,9 +54,6 @@
     <Image Include="..\..\..\..\Desktop\logo.ico">
       <Filter>Ressourcendateien</Filter>
     </Image>
-    <Image Include="..\..\..\..\Downloads\Snake-A-Byte-Client-main\src\main\resources\background.png">
-      <Filter>Ressourcendateien</Filter>
-    </Image>
     <Image Include="..\..\..\..\Desktop\background.bmp">
       <Filter>Ressourcendateien</Filter>
     </Image>
@@ -52,6 +61,9 @@
       <Filter>Ressourcendateien</Filter>
     </Image>
     <Image Include="..\..\..\..\Desktop\snake.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\Snake-A-Byte-Client-main\src\main\resources\background.png">
       <Filter>Ressourcendateien</Filter>
     </Image>
   </ItemGroup>
