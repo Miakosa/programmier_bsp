@@ -29,9 +29,6 @@
     <ClInclude Include="resource.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="Random.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="Fruit.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>

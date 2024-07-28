@@ -2,8 +2,8 @@
 #include <curses.h>
 #include <string.h>
 #include <windows.h>
-#include "Snake.cpp"
-#include "Fruit.cpp"
+#include "Snake.h"
+#include "Fruit.h"
 
 int main()
 {
@@ -153,6 +153,7 @@ int main()
             }
             else {
                 snake.draw(game_window); // draw snake onto game window
+                fruit.draw(game_window);
                 wrefresh(game_window);
             }
             wrefresh(window);
