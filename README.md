@@ -6,5 +6,8 @@ Inhalt
 - Internetanwendungen & Programmieren:
     Programmierbeispiele aus dem Studiumsunterricht
 
-- Snake
-    Erstes C++ Programmierprojekt 
+- Snake:
+    Erstes C++ Programmierprojekt (Übung)
+
+- src/main:
+    Zeigt ein im Studium erarbeitetes Snake spiel (js) 
